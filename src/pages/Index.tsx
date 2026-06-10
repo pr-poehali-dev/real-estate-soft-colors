@@ -6,72 +6,72 @@ import Icon from "@/components/ui/icon";
 const PROPERTIES = [
   {
     id: 1,
-    title: "Вилла с видом на море, Ялта",
+    title: "Вилла в «Mriya Resort & Spa»",
     type: "Продажа",
     price: "62 000 000 ₽",
     area: "320 м²",
     rooms: "5",
-    address: "Ялта, ул. Садовая, 18",
+    address: "Ялта, пгт Никита, ЖК Mriya Resort",
     img: "https://cdn.poehali.dev/projects/8939b813-faad-4d7e-bd78-692c6f14b5a9/files/f5c1a3ce-3de2-4a4a-bb88-7aa4bd8df7f4.jpg",
     tag: "Премиум",
     lat: 44.495, lng: 34.166,
   },
   {
     id: 2,
-    title: "Апартаменты у набережной, Севастополь",
+    title: "Апартаменты в «Адмирал»",
     type: "Продажа",
     price: "11 500 000 ₽",
     area: "88 м²",
     rooms: "3",
-    address: "Севастополь, Приморский бульвар, 5",
+    address: "Севастополь, ЖК Адмирал, Приморский бульвар",
     img: "https://cdn.poehali.dev/projects/8939b813-faad-4d7e-bd78-692c6f14b5a9/files/6ea2cd6e-d515-4896-80ea-0bbc56a35894.jpg",
     tag: "Новинка",
     lat: 44.616, lng: 33.525,
   },
   {
     id: 3,
-    title: "Студия с террасой, Алушта",
+    title: "Студия в «Ривьера Алушта»",
     type: "Аренда",
     price: "55 000 ₽/мес",
     area: "42 м²",
     rooms: "1",
-    address: "Алушта, ул. Горького, 12",
+    address: "Алушта, ЖК Ривьера, ул. Горького",
     img: "https://cdn.poehali.dev/projects/8939b813-faad-4d7e-bd78-692c6f14b5a9/files/6ea2cd6e-d515-4896-80ea-0bbc56a35894.jpg",
     tag: "Аренда",
     lat: 44.676, lng: 34.411,
   },
   {
     id: 4,
-    title: "Поместье в Форосе",
+    title: "Резиденция «Форос Эстейт»",
     type: "Продажа",
     price: "78 000 000 ₽",
     area: "650 м²",
     rooms: "9",
-    address: "Форос, ул. Космонавтов, 3",
+    address: "Форос, коттеджный посёлок Форос Эстейт",
     img: "https://cdn.poehali.dev/projects/8939b813-faad-4d7e-bd78-692c6f14b5a9/files/f5c1a3ce-3de2-4a4a-bb88-7aa4bd8df7f4.jpg",
     tag: "Элитная",
     lat: 44.396, lng: 33.786,
   },
   {
     id: 5,
-    title: "Дом у моря, Судак",
+    title: "Таунхаус в «Судак Парк»",
     type: "Аренда",
     price: "70 000 ₽/мес",
     area: "110 м²",
     rooms: "3",
-    address: "Судак, ул. Приморская, 7",
+    address: "Судак, КП Судак Парк, ул. Приморская",
     img: "https://cdn.poehali.dev/projects/8939b813-faad-4d7e-bd78-692c6f14b5a9/files/f5c1a3ce-3de2-4a4a-bb88-7aa4bd8df7f4.jpg",
     tag: "Аренда",
     lat: 44.849, lng: 34.977,
   },
   {
     id: 6,
-    title: "Квартира с панорамой, Феодосия",
+    title: "Квартира в «Акварель»",
     type: "Продажа",
     price: "7 800 000 ₽",
     area: "74 м²",
     rooms: "2",
-    address: "Феодосия, ул. Галерейная, 14",
+    address: "Феодосия, ЖК Акварель, ул. Галерейная",
     img: "https://cdn.poehali.dev/projects/8939b813-faad-4d7e-bd78-692c6f14b5a9/files/6ea2cd6e-d515-4896-80ea-0bbc56a35894.jpg",
     tag: "Загородная",
     lat: 45.031, lng: 35.384,
@@ -346,9 +346,9 @@ export default function Index() {
                   Премиум
                 </span>
               </div>
-              <h3 className="font-display text-xl font-medium mb-1">Вилла с видом на море, Ялта</h3>
+              <h3 className="font-display text-xl font-medium mb-1">Вилла в «Mriya Resort & Spa»</h3>
               <p className="text-sm text-foreground/50 mb-3 flex items-center gap-1">
-                <Icon name="MapPin" size={12} /> Ялта, ул. Садовая, 18
+                <Icon name="MapPin" size={12} /> Ялта, пгт Никита, ЖК Mriya
               </p>
               <div className="flex justify-between items-center">
                 <span className="font-display text-2xl font-medium text-sage-500">62 000 000 ₽</span>
