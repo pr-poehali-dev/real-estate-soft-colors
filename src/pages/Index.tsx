@@ -6,75 +6,75 @@ import Icon from "@/components/ui/icon";
 const PROPERTIES = [
   {
     id: 1,
-    title: "Пентхаус на Патриарших",
+    title: "Вилла с видом на море, Ялта",
     type: "Продажа",
-    price: "45 000 000 ₽",
-    area: "180 м²",
-    rooms: "4",
-    address: "Малая Бронная, 22",
-    img: "https://cdn.poehali.dev/projects/8939b813-faad-4d7e-bd78-692c6f14b5a9/files/6ea2cd6e-d515-4896-80ea-0bbc56a35894.jpg",
+    price: "62 000 000 ₽",
+    area: "320 м²",
+    rooms: "5",
+    address: "Ялта, ул. Садовая, 18",
+    img: "https://cdn.poehali.dev/projects/8939b813-faad-4d7e-bd78-692c6f14b5a9/files/f5c1a3ce-3de2-4a4a-bb88-7aa4bd8df7f4.jpg",
     tag: "Премиум",
-    lat: 55.764, lng: 37.59,
+    lat: 44.495, lng: 34.166,
   },
   {
     id: 2,
-    title: "Квартира в Хамовниках",
+    title: "Апартаменты у набережной, Севастополь",
     type: "Продажа",
-    price: "18 500 000 ₽",
-    area: "92 м²",
+    price: "11 500 000 ₽",
+    area: "88 м²",
     rooms: "3",
-    address: "Комсомольский пр-т, 14",
-    img: "https://cdn.poehali.dev/projects/8939b813-faad-4d7e-bd78-692c6f14b5a9/files/f5c1a3ce-3de2-4a4a-bb88-7aa4bd8df7f4.jpg",
+    address: "Севастополь, Приморский бульвар, 5",
+    img: "https://cdn.poehali.dev/projects/8939b813-faad-4d7e-bd78-692c6f14b5a9/files/6ea2cd6e-d515-4896-80ea-0bbc56a35894.jpg",
     tag: "Новинка",
-    lat: 55.73, lng: 37.573,
+    lat: 44.616, lng: 33.525,
   },
   {
     id: 3,
-    title: "Апартаменты в Сити",
+    title: "Студия с террасой, Алушта",
     type: "Аренда",
-    price: "180 000 ₽/мес",
-    area: "75 м²",
-    rooms: "2",
-    address: "Пресненская наб., 8",
+    price: "55 000 ₽/мес",
+    area: "42 м²",
+    rooms: "1",
+    address: "Алушта, ул. Горького, 12",
     img: "https://cdn.poehali.dev/projects/8939b813-faad-4d7e-bd78-692c6f14b5a9/files/6ea2cd6e-d515-4896-80ea-0bbc56a35894.jpg",
     tag: "Аренда",
-    lat: 55.749, lng: 37.539,
+    lat: 44.676, lng: 34.411,
   },
   {
     id: 4,
-    title: "Таунхаус в Подмосковье",
+    title: "Поместье в Форосе",
     type: "Продажа",
-    price: "12 000 000 ₽",
-    area: "220 м²",
-    rooms: "5",
-    address: "Барвиха, Рублёвское ш.",
+    price: "78 000 000 ₽",
+    area: "650 м²",
+    rooms: "9",
+    address: "Форос, ул. Космонавтов, 3",
     img: "https://cdn.poehali.dev/projects/8939b813-faad-4d7e-bd78-692c6f14b5a9/files/f5c1a3ce-3de2-4a4a-bb88-7aa4bd8df7f4.jpg",
-    tag: "Загородная",
-    lat: 55.74, lng: 37.29,
+    tag: "Элитная",
+    lat: 44.396, lng: 33.786,
   },
   {
     id: 5,
-    title: "Студия в Замоскворечье",
+    title: "Дом у моря, Судак",
     type: "Аренда",
-    price: "65 000 ₽/мес",
-    area: "38 м²",
-    rooms: "1",
-    address: "Пятницкая ул., 30",
-    img: "https://cdn.poehali.dev/projects/8939b813-faad-4d7e-bd78-692c6f14b5a9/files/6ea2cd6e-d515-4896-80ea-0bbc56a35894.jpg",
+    price: "70 000 ₽/мес",
+    area: "110 м²",
+    rooms: "3",
+    address: "Судак, ул. Приморская, 7",
+    img: "https://cdn.poehali.dev/projects/8939b813-faad-4d7e-bd78-692c6f14b5a9/files/f5c1a3ce-3de2-4a4a-bb88-7aa4bd8df7f4.jpg",
     tag: "Аренда",
-    lat: 55.735, lng: 37.627,
+    lat: 44.849, lng: 34.977,
   },
   {
     id: 6,
-    title: "Особняк в Переделкино",
+    title: "Квартира с панорамой, Феодосия",
     type: "Продажа",
-    price: "85 000 000 ₽",
-    area: "580 м²",
-    rooms: "8",
-    address: "Переделкино, Лесная ул.",
-    img: "https://cdn.poehali.dev/projects/8939b813-faad-4d7e-bd78-692c6f14b5a9/files/f5c1a3ce-3de2-4a4a-bb88-7aa4bd8df7f4.jpg",
-    tag: "Элитная",
-    lat: 55.663, lng: 37.367,
+    price: "7 800 000 ₽",
+    area: "74 м²",
+    rooms: "2",
+    address: "Феодосия, ул. Галерейная, 14",
+    img: "https://cdn.poehali.dev/projects/8939b813-faad-4d7e-bd78-692c6f14b5a9/files/6ea2cd6e-d515-4896-80ea-0bbc56a35894.jpg",
+    tag: "Загородная",
+    lat: 45.031, lng: 35.384,
   },
 ];
 
@@ -94,9 +94,9 @@ const SERVICES = [
 ];
 
 const ARTICLES = [
-  { title: "Как выбрать квартиру для инвестиций в 2024 году", date: "12 ноября 2024", cat: "Инвестиции", read: "5 мин" },
-  { title: "Ипотека или аренда: что выгоднее в текущих условиях", date: "5 ноября 2024", cat: "Советы", read: "7 мин" },
-  { title: "Топ-5 районов Москвы для семейного проживания", date: "28 октября 2024", cat: "Аналитика", read: "4 мин" },
+  { title: "Крымская недвижимость как инвестиция: Ялта vs Севастополь", date: "12 ноября 2024", cat: "Инвестиции", read: "5 мин" },
+  { title: "Покупка дома у моря: на что обратить внимание в Крыму", date: "5 ноября 2024", cat: "Советы", read: "7 мин" },
+  { title: "Топ-5 курортных районов Крыма для постоянного проживания", date: "28 октября 2024", cat: "Аналитика", read: "4 мин" },
 ];
 
 /* ─── MAP COMPONENT ─────────────────────────────────────────── */
@@ -111,7 +111,7 @@ function MapSection() {
     const L = (window as any).L;
     if (!L) return;
 
-    const map = L.map(mapRef.current).setView([55.74, 37.55], 11);
+    const map = L.map(mapRef.current).setView([44.7, 34.3], 9);
     mapInstanceRef.current = map;
 
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -346,15 +346,15 @@ export default function Index() {
                   Премиум
                 </span>
               </div>
-              <h3 className="font-display text-xl font-medium mb-1">Пентхаус на Патриарших</h3>
+              <h3 className="font-display text-xl font-medium mb-1">Вилла с видом на море, Ялта</h3>
               <p className="text-sm text-foreground/50 mb-3 flex items-center gap-1">
-                <Icon name="MapPin" size={12} /> Малая Бронная, 22
+                <Icon name="MapPin" size={12} /> Ялта, ул. Садовая, 18
               </p>
               <div className="flex justify-between items-center">
-                <span className="font-display text-2xl font-medium text-sage-500">45 000 000 ₽</span>
+                <span className="font-display text-2xl font-medium text-sage-500">62 000 000 ₽</span>
                 <div className="flex gap-3 text-xs text-foreground/50">
-                  <span>180 м²</span>
-                  <span>4 комн.</span>
+                  <span>320 м²</span>
+                  <span>5 комн.</span>
                 </div>
               </div>
             </div>
