@@ -216,9 +216,11 @@ export default function Index() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-beige-50/90 backdrop-blur-md border-b border-beige-200">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <button onClick={() => scrollTo("home")} className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-full bg-sage-500 flex items-center justify-center">
-              <Icon name="Home" size={14} className="text-beige-50" />
-            </div>
+            <img
+              src="https://cdn.poehali.dev/projects/8939b813-faad-4d7e-bd78-692c6f14b5a9/files/d17f476c-1f3f-4cc4-9288-674a1622c830.jpg"
+              alt="Veyra Estate"
+              className="w-9 h-9 rounded-full object-cover border border-beige-200"
+            />
             <span className="font-logo text-xl font-medium text-foreground tracking-widest uppercase">
               Veyra&nbsp;<em className="italic not-italic font-normal tracking-widest">Estate</em>
             </span>
@@ -750,9 +752,11 @@ export default function Index() {
           <div className="flex flex-col md:flex-row justify-between items-start gap-8 mb-10">
             <div>
               <div className="flex items-center gap-2 mb-3">
-                <div className="w-7 h-7 rounded-full bg-beige-50/20 flex items-center justify-center">
-                  <Icon name="Home" size={12} className="text-beige-50" />
-                </div>
+                <img
+                  src="https://cdn.poehali.dev/projects/8939b813-faad-4d7e-bd78-692c6f14b5a9/files/d17f476c-1f3f-4cc4-9288-674a1622c830.jpg"
+                  alt="Veyra Estate"
+                  className="w-8 h-8 rounded-full object-cover border border-beige-50/20"
+                />
                 <span className="font-logo text-xl text-beige-50 tracking-widest uppercase font-medium">
                   Veyra <em className="not-italic font-normal">Estate</em>
                 </span>
