@@ -219,8 +219,8 @@ export default function Index() {
             <div className="w-8 h-8 rounded-full bg-sage-500 flex items-center justify-center">
               <Icon name="Home" size={14} className="text-beige-50" />
             </div>
-            <span className="font-display text-xl font-medium text-foreground tracking-wide">
-              Бюро&nbsp;<em>Недвижимости</em>
+            <span className="font-logo text-xl font-medium text-foreground tracking-widest uppercase">
+              Veyra&nbsp;<em className="italic not-italic font-normal tracking-widest">Estate</em>
             </span>
           </button>
 
@@ -291,6 +291,7 @@ export default function Index() {
               Более 15 лет на рынке недвижимости
             </div>
 
+            <div className="font-logo text-sm tracking-[0.4em] uppercase text-sage-500 mb-3 animate-fade-in">Veyra Estate</div>
             <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-light leading-tight text-foreground mb-6 animate-fade-in">
               Найдите{" "}
               <em className="text-sage-500 not-italic font-normal">дом</em>,<br />
@@ -752,12 +753,12 @@ export default function Index() {
                 <div className="w-7 h-7 rounded-full bg-beige-50/20 flex items-center justify-center">
                   <Icon name="Home" size={12} className="text-beige-50" />
                 </div>
-                <span className="font-display text-xl text-beige-50">
-                  Бюро <em>Недвижимости</em>
+                <span className="font-logo text-xl text-beige-50 tracking-widest uppercase font-medium">
+                  Veyra <em className="not-italic font-normal">Estate</em>
                 </span>
               </div>
               <p className="text-sm text-beige-200/70 max-w-xs leading-relaxed">
-                Помогаем найти дом, в котором хочется остаться, с 2009 года.
+                Veyra Estate — помогаем найти дом, в котором хочется остаться, с 2009 года.
               </p>
             </div>
 
@@ -790,7 +791,7 @@ export default function Index() {
           </div>
 
           <div className="border-t border-beige-50/10 pt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-beige-200/40">
-            <p>© 2024 Бюро Недвижимости. Все права защищены.</p>
+            <p>© 2024 Veyra Estate. Все права защищены.</p>
             <div className="flex gap-6">
               <button className="hover:text-beige-200/70 transition-colors">Политика конфиденциальности</button>
               <button className="hover:text-beige-200/70 transition-colors">Пользовательское соглашение</button>

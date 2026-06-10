@@ -20,6 +20,7 @@ export default {
 		extend: {
 			fontFamily: {
 				display: ['Cormorant Garamond', 'Cormorant', 'Georgia', 'serif'],
+				logo: ['Playfair Display', 'Georgia', 'serif'],
 				body: ['Golos Text', 'sans-serif'],
 			},
 			colors: {
