@@ -710,10 +710,30 @@ export default function Index() {
                 Контактная <em className="italic">информация</em>
               </h3>
 
+              {/* Personal card */}
+              <div className="flex items-center gap-5 p-5 bg-white rounded-2xl border border-beige-200 shadow-sm">
+                <img
+                  src="https://cdn.poehali.dev/projects/8939b813-faad-4d7e-bd78-692c6f14b5a9/bucket/7f6ab728-06d1-4258-a48a-4c9ca3a5404b.png"
+                  alt="Руководитель агенства"
+                  className="w-20 h-20 rounded-xl object-cover object-top flex-shrink-0 border border-beige-200"
+                />
+                <div>
+                  <div className="text-xs font-medium text-foreground/40 uppercase tracking-wider mb-1">Ваш личный эксперт</div>
+                  <div className="font-display text-xl font-medium mb-1">Елена Морозова</div>
+                  <div className="text-sm text-sage-500 mb-2">Руководитель агенства</div>
+                  <a
+                    href="tel:+79176260676"
+                    className="inline-flex items-center gap-2 bg-sage-500 text-beige-50 text-sm font-medium px-4 py-2 rounded-full hover:bg-sage-600 transition-colors"
+                  >
+                    <Icon name="Phone" size={13} />
+                    +7 917 626 06 76
+                  </a>
+                </div>
+              </div>
+
               {[
-                { icon: "MapPin", title: "Адрес", text: "Москва, Тверская ул., 12\nОфис 450, 4 этаж" },
-                { icon: "Phone", title: "Телефон", text: "+7 (495) 123-45-67\n+7 (800) 555-00-11 (бесплатно)" },
-                { icon: "Mail", title: "Email", text: "info@byuro-nedv.ru" },
+                { icon: "MapPin", title: "Адрес", text: "Крым, г. Ялта, ул. Садовая, 18" },
+                { icon: "Mail", title: "Email", text: "info@veyra-estate.ru" },
                 { icon: "Clock", title: "Режим работы", text: "Пн–Пт: 9:00–20:00\nСб–Вс: 10:00–18:00" },
               ].map((item) => (
                 <div key={item.icon} className="flex items-start gap-4 p-5 bg-white rounded-xl border border-beige-200">
