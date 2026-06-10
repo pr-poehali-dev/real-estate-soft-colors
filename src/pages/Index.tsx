@@ -719,15 +719,35 @@ export default function Index() {
                 />
                 <div>
                   <div className="text-xs font-medium text-foreground/40 uppercase tracking-wider mb-1">Ваш личный эксперт</div>
-                  <div className="font-display text-xl font-medium mb-1">Елена Морозова</div>
-                  <div className="text-sm text-sage-500 mb-2">Руководитель агенства</div>
-                  <a
-                    href="tel:+79176260676"
-                    className="inline-flex items-center gap-2 bg-sage-500 text-beige-50 text-sm font-medium px-4 py-2 rounded-full hover:bg-sage-600 transition-colors"
-                  >
-                    <Icon name="Phone" size={13} />
-                    +7 917 626 06 76
-                  </a>
+                  <div className="font-display text-xl font-medium mb-1">Королева Вера</div>
+                  <div className="text-sm text-sage-500 mb-3">Руководитель агенства</div>
+                  <div className="flex flex-wrap gap-2">
+                    <a
+                      href="tel:+79176260676"
+                      className="inline-flex items-center gap-2 bg-sage-500 text-beige-50 text-sm font-medium px-4 py-2 rounded-full hover:bg-sage-600 transition-colors"
+                    >
+                      <Icon name="Phone" size={13} />
+                      +7 917 626 06 76
+                    </a>
+                    <a
+                      href="https://t.me/+79176260676"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 bg-sky-100 text-sky-600 text-sm font-medium px-4 py-2 rounded-full hover:bg-sky-200 transition-colors"
+                    >
+                      <Icon name="MessageCircle" size={13} />
+                      Telegram
+                    </a>
+                    <a
+                      href="https://wa.me/79176260676"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 bg-green-100 text-green-600 text-sm font-medium px-4 py-2 rounded-full hover:bg-green-200 transition-colors"
+                    >
+                      <Icon name="MessageSquare" size={13} />
+                      WhatsApp
+                    </a>
+                  </div>
                 </div>
               </div>
 
@@ -747,20 +767,7 @@ export default function Index() {
                 </div>
               ))}
 
-              <div className="flex gap-3 pt-2">
-                {[
-                  { icon: "MessageCircle", label: "Telegram" },
-                  { icon: "Phone", label: "WhatsApp" },
-                ].map((s) => (
-                  <button
-                    key={s.label}
-                    className="flex items-center gap-2 bg-white border border-beige-200 text-foreground/60 text-sm px-4 py-2.5 rounded-full hover:border-sage-300 hover:text-sage-600 transition-colors"
-                  >
-                    <Icon name={s.icon} size={14} />
-                    {s.label}
-                  </button>
-                ))}
-              </div>
+
             </div>
           </div>
         </div>
