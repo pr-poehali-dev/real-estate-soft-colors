@@ -191,7 +191,7 @@ export default function Index() {
   const navLinks = [
     { id: "home", label: "Главная" },
     { id: "catalog", label: "Каталог" },
-    { id: "about", label: "О нас" },
+    { id: "about", label: "Наша миссия" },
     { id: "services", label: "Услуги" },
     { id: "blog", label: "Блог" },
     { id: "contacts", label: "Контакты" },
