@@ -79,7 +79,7 @@ const PROPERTIES = [
 ];
 
 const TEAM = [
-  { name: "Елена Морозова", role: "Руководитель агенства", exp: "18 лет опыта", img: "https://cdn.poehali.dev/projects/8939b813-faad-4d7e-bd78-692c6f14b5a9/files/646e3fb5-50ae-4814-90c7-7608f363d0a6.jpg" },
+  { name: "Королева Вера", role: "Руководитель Veyra Estate", exp: "18 лет опыта", img: "https://cdn.poehali.dev/projects/8939b813-faad-4d7e-bd78-692c6f14b5a9/files/646e3fb5-50ae-4814-90c7-7608f363d0a6.jpg" },
   { name: "Андрей Соколов", role: "Эксперт по элитной недвижимости", exp: "12 лет опыта", img: "https://cdn.poehali.dev/projects/8939b813-faad-4d7e-bd78-692c6f14b5a9/files/646e3fb5-50ae-4814-90c7-7608f363d0a6.jpg" },
   { name: "Мария Лебедева", role: "Специалист по аренде", exp: "9 лет опыта", img: "https://cdn.poehali.dev/projects/8939b813-faad-4d7e-bd78-692c6f14b5a9/files/646e3fb5-50ae-4814-90c7-7608f363d0a6.jpg" },
 ];
@@ -466,10 +466,10 @@ export default function Index() {
             <div className="reveal">
               <div className="section-divider mb-4" />
               <h2 className="font-display text-4xl md:text-5xl font-light mb-6">
-                Об <em className="italic">агенстве</em>
+                О <em className="italic">Veyra Estate</em>
               </h2>
               <p className="text-foreground/65 leading-relaxed mb-6">
-                Бюро Недвижимости — это команда опытных специалистов, которые искренне любят своё дело. Мы работаем на рынке недвижимости Москвы и Подмосковья с 2009 года и помогли более тысячи семей найти свой идеальный дом.
+                Veyra Estate — это команда опытных специалистов, которые искренне любят своё дело. Мы работаем на рынке недвижимости Крымского побережья с 2009 года и помогли более тысячи семей найти свой идеальный дом.
               </p>
               <p className="text-foreground/65 leading-relaxed mb-8">
                 Наш подход основан на доверии, прозрачности и глубоком знании рынка. Мы не просто продаём квадратные метры — мы помогаем найти место, где вам будет по-настоящему хорошо.
@@ -714,13 +714,13 @@ export default function Index() {
               <div className="flex items-center gap-5 p-5 bg-white rounded-2xl border border-beige-200 shadow-sm">
                 <img
                   src="https://cdn.poehali.dev/projects/8939b813-faad-4d7e-bd78-692c6f14b5a9/bucket/7f6ab728-06d1-4258-a48a-4c9ca3a5404b.png"
-                  alt="Руководитель агенства"
+                  alt="Королева Вера — Руководитель Veyra Estate"
                   className="w-20 h-20 rounded-xl object-cover object-top flex-shrink-0 border border-beige-200"
                 />
                 <div>
                   <div className="text-xs font-medium text-foreground/40 uppercase tracking-wider mb-1">Ваш личный эксперт</div>
                   <div className="font-display text-xl font-medium mb-1">Королева Вера</div>
-                  <div className="text-sm text-sage-500 mb-3">Руководитель агенства</div>
+                  <div className="text-sm text-sage-500 mb-3">Руководитель Veyra Estate</div>
                   <div className="flex flex-wrap gap-2">
                     <a
                       href="tel:+79176260676"
@@ -795,7 +795,7 @@ export default function Index() {
 
             <div className="grid grid-cols-2 md:grid-cols-3 gap-8 text-sm">
               <div>
-                <div className="text-beige-200/50 text-xs uppercase tracking-widest mb-3">Агенство</div>
+                <div className="text-beige-200/50 text-xs uppercase tracking-widest mb-3">Veyra Estate</div>
                 {["О нас", "Команда", "Отзывы", "Карьера"].map((l) => (
                   <div key={l} className="mb-2">
                     <button className="text-beige-200/70 hover:text-beige-50 transition-colors">{l}</button>
@@ -813,9 +813,9 @@ export default function Index() {
               <div>
                 <div className="text-beige-200/50 text-xs uppercase tracking-widest mb-3">Контакты</div>
                 <div className="text-beige-200/70 text-sm space-y-1">
-                  <p>+7 (495) 123-45-67</p>
-                  <p>info@byuro-nedv.ru</p>
-                  <p>Москва, Тверская, 12</p>
+                  <p>+7 917 626 06 76</p>
+                  <p>info@veyra-estate.ru</p>
+                  <p>Крым, г. Ялта</p>
                 </div>
               </div>
             </div>
